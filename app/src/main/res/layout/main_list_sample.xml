@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#EFEFEF"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="1dp"
+            android:gravity="center"
+            android:layout_height="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/Custom_TextView_Surah_No_Id"
+                android:backgroundTint="#5163DB66"
+                android:textSize="18dp"
+                android:text="999"
+                android:layout_height="match_parent"
+                android:textColor="#0a0094"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingBottom="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Custom_TextView_SurahName_Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="Show here - Surah Name"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/Custom_TextView_DescendClass_Id"
+                android:text="Show here Makka/Madina"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:textColor="#000000"        />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
