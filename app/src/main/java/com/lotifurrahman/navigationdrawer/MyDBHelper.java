@@ -83,7 +83,7 @@ public class MyDBHelper extends SQLiteOpenHelper {
     private void fillSurahListable() {
         MainList surah1 = new MainList(1, "রফিক সাহেব ঠিক করলেন, ছেলের বিয়ে দেবেন। ছেলেকে গিয়ে বললেন, শোন, আমি ঠিক করেছি তোর বিয়ে দেবো। পাত্রীও ঠিক।\n" +
                 "ছেলে : কিন্তু বাবা আমি তো নিজের পছন্দে বিয়ে করতে চাই!\n" +
-                "প্রেসিডেন্ট : তাহলে আমি রাজি!\n", "মক্কা", 7);
+                "প্রেসিডেন্ট : তাহলে আমি রাজি!\n", "Test class", 7);
         addSurahList(surah1);
     }
 

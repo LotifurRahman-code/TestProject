@@ -17,7 +17,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class SpalshActivity extends AppCompatActivity {
-    Animation top_anim, bottom_anim;
+    private Animation top_anim, bottom_anim;
     ImageView imageView;
     TextView textView;
 
